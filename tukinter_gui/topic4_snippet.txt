@@ -1,0 +1,14 @@
+from tkinter import *
+
+root = Tk()
+
+#create a label widget with text
+label = Label(root, text='Hello, World!')
+
+#customize label widget properties
+label.config(font=('Arial', '16'), fg='blue', bg='white')
+
+#pack the label
+label.pack()
+
+root.mainloop()

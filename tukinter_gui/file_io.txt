@@ -1,0 +1,43 @@
+File I/O (Input/Output) in Python refers to the process of reading data from files or writing data to files. It allows you to interact with files stored on your computer's file system, enabling you to read information from files or write information to files.
+
+Python provides built-in functions and methods for performing file I/O operations. The key functions for file I/O are:
+
+1. open(): This function is used to open a file and returns a file object. It takes two parameters: the file name (including the path if necessary) and the mode in which the file should be opened (e.g., read mode, write mode, append mode, etc.).
+
+2. read(): This method is used to read the contents of a file. It reads the entire contents of the file as a string or a sequence of bytes, depending on the mode in which the file was opened.
+
+3. readline(): This method is used to read a single line from a file. It reads one line at a time, and each subsequent call to readline() returns the next line in the file.
+
+4. write(): This method is used to write data to a file. It takes a string or a sequence of bytes as a parameter and writes it to the file.
+
+5. writelines(): This method is used to write multiple lines of data to a file. It takes a sequence of strings or a sequence of bytes and writes each element as a separate line in the file.
+
+6. close(): This method is used to close a file that has been opened. It ensures that any changes made to the file are saved and releases the system resources associated with the file.
+
+
+It's important to ensure that you close the file after performing file I/O operations to free up system resources and avoid data loss. Alternatively, you can use the with statement, which automatically takes care of closing the file, even if an exception occurs.
+
+File I/O operations in Python allow you to read data from files, write data to files, or modify existing files. It is a fundamental part of working with external data sources, such as text files, CSV files, JSON files, and more.
+
+
+Python's open() function allows you to specify different modes for file I/O operations. The mode parameter defines how the file should be opened and the type of operations that can be performed on it. Here are the commonly used modes for file I/O in Python:
+
+Read Modes:
+
+"r": Opens the file for reading (default mode). Raises an error if the file does not exist.
+"rb": Opens the file for reading in binary mode. Useful for reading binary data like images or non-text files.
+"r+": Opens the file for both reading and writing. Raises an error if the file does not exist.
+Write Modes:
+
+"w": Opens the file for writing. Creates a new file if it doesn't exist or truncates the file if it exists.
+"wb": Opens the file for writing in binary mode.
+"w+": Opens the file for both writing and reading. Creates a new file if it doesn't exist or truncates the file if it exists.
+Append Modes:
+
+"a": Opens the file for appending data. The file is created if it doesn't exist.
+"ab": Opens the file for appending data in binary mode.
+"a+": Opens the file for both appending and reading. The file is created if it doesn't exist.
+Exclusive Creation Mode:
+
+"x": Opens the file for exclusive creation, failing if the file already exists.
+Each mode can be used independently or in combination with other modes. For example, "rb" represents reading a file in binary mode, while "w+" allows both reading and writing to a file.

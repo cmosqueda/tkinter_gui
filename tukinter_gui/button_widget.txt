@@ -1,0 +1,7 @@
+Button widget
+
+Buttons are interactive elements that users can click to trigger specific actions or events. They are often used to perform tasks like submitting forms, executing commands, or navigating through different sections of an application.
+
+To create a Button widget in tkinter, you typically use the Button class and pass the parent widget (e.g., the root window or a frame) as the first parameter, along with other optional parameters to customize the button's appearance and behavior.
+
+The Button widget supports various options and parameters to customize its appearance and behavior. Some common options include text (the label of the button), command (the function to be executed when the button is clicked), width, height, bg (background color), fg (foreground/text color), font, relief (border style), and more. You can specify these options as keyword arguments when creating the Button widget.

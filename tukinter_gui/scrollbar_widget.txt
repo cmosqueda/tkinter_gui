@@ -1,0 +1,5 @@
+Scrollbar widget
+
+Tkinter Scrollbar widget is a graphical control element that provides a scrolling mechanism for other widgets with limited visible space, such as Listbox, Text, or Canvas. It allows the user to scroll through the content that exceeds the available area.
+
+The Scrollbar widget in Tkinter is typically used in combination with another widget or a container that supports scrolling. It provides a vertical or horizontal scroll bar, or both, depending on the orientation specified.

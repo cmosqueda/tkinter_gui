@@ -1,0 +1,7 @@
+Pack Geometry Manager:
+
+The pack geometry manager is one of the three layout managers available for organizing and positioning widgets within a window or frame. The pack manager allows you to place widgets in a simple and flexible manner by automatically arranging them in a horizontal or vertical layout.
+
+To use the pack geometry manager in tkinter, you typically call the pack() method on the widget you want to place, specifying optional parameters as needed.
+
+The pack() method provides additional optional parameters that allow you to control how widgets are packed, such as side, fill, expand, padx, pady, ipadx, and ipady. These parameters can be passed as keyword arguments to the pack() method to achieve different packing configurations.

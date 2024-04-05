@@ -1,0 +1,3 @@
+Entry widget
+
+The Entry widget in Tkinter provides a simple text entry field where the user can input or edit text. It is typically used to get user input for things like names, addresses, or search queries. The text entered in an Entry widget can be retrieved or manipulated using the `get()` and `insert()` methods. You can configure attributes such as width, font, and text variable for the Entry widget.

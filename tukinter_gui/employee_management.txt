@@ -1,0 +1,1 @@
+In this section, we will be providing you a source code of a simple employee management database.

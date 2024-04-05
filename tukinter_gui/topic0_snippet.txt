@@ -1,0 +1,14 @@
+# import the tkinter module
+from tkinter import *
+
+# create root window
+root = Tk()
+
+# create a label widget with "Hello, World" text
+helloWorldLbl = Label(root, text='Hello, World!')
+
+# Use a 'pack' geometry manager to display your label widget
+helloWorldLbl.pack()
+
+# start tkinter event loop
+root.mainloop()

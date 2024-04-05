@@ -1,0 +1,19 @@
+from tkinter import *
+
+def run():
+    root = Toplevel()
+
+    scrollbar = Scrollbar(root, orient=VERTICAL)
+    listbox = Listbox(root, yscrollcommand=scrollbar.set)
+
+    # add items to the listbox
+    for i in range(1, 101):
+        listbox.insert(END, f'Item {i}')
+
+
+    scrollbar.config(command=listbox.yview)
+
+    scrollbar.pack(side=RIGHT, fill=Y)
+    listbox.pack(side=LEFT, fill=BOTH, expand=True)
+
+    root.mainloop()

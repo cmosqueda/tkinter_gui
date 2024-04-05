@@ -1,0 +1,3 @@
+Menu widget
+
+The Menu widget in Tkinter allows you to create menu bars or popup menus in your GUI application. Menus are hierarchical, with a menu bar containing one or more menus, and each menu containing one or more menu items. Menu items can have commands associated with them, which are functions or actions to be executed when the item is selected. You can create menus using the `Menu` widget, add menu items using the `add_command()`, `add_separator()`, and `add_cascade()` methods, and configure their labels, commands, and other properties.

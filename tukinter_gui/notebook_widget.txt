@@ -1,0 +1,5 @@
+Notebook widget
+
+Tkinter Notebook is a widget in the Tkinter library, which is the standard Python interface to the Tk GUI toolkit. Tkinter provides various GUI components to create graphical user interfaces for Python applications, and the Notebook widget is one of them.
+
+The Notebook widget is a tabbed container that allows you to organize and display multiple pages or panels of information. Each page is represented by a separate tab, and you can switch between the pages by clicking on the respective tabs. It provides a convenient way to present different sets of information or functionalities within a single window.
